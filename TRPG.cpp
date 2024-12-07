@@ -96,7 +96,7 @@ public:
             experience -= level * 100;
             levelUp();
         }
-    }
+    
 
     bool evadeAttack() {
         return (static_cast<float>(rand()) / RAND_MAX) < evadeChance; // 회피 성공 여부
